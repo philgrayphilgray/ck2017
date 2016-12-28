@@ -1,0 +1,24 @@
+body{
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(114, 191, 190);
+  text-align: center;
+}
+
+#color {
+  width: calc(100%/3);
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  outline: 0;
+  border: 2px solid black;
+  margin: 20px auto;
+}
